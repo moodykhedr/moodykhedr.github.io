@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,300);
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+div {
+  alig
+}
+
+
+.clearfix:after {
+  display: block;
+  clear: both;
+
+
+}
+
+/* Nav Bar */
+
+nav {
+  width: 800px;
+  margin:0 auto;
+  border: 1px solid gray;
+  background: lightgray;
+  color: white;
+  padding: 0 50px;
+}
+
+nav > div {
+  float: left;
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+nav > ul > li {
+  float: right;
+}
+
+nav > ul > li > a {
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+nav > ul > li > a:hover {
+  background: red;
+  color: blue;
