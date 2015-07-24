@@ -13,25 +13,35 @@ div {
 .clearfix:after {
   display: block;
   clear: both;
-
-
 }
+
+/*Header*/
+
+#otis li {
+    list-style-type: none;
+}
+
+#mypic {
+  position: absolute;
+  top: 600px;
+  right: 500px;
+  border: 3px solid #8AC007;
+}
+
 
 /* Nav Bar */
 
 nav {
-  width: 800px;
+  width: 1024px;
   margin:0 auto;
-  border: 1px solid gray;
-  background: lightgray;
-  color: white;
-  padding: 0 50px;
+  height: auto;
+  background-color: black;
 }
 
 nav > div {
   float: left;
   padding: 10px 0;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 nav > ul > li {
@@ -39,10 +49,22 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  font-size: 25px;
+  font-size: 12px;
   padding: 0 10px;
 }
 
 nav > ul > li > a:hover {
   background: red;
   color: blue;
+
+
+/*Img Moving*/
+
+
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #8AC007;
+}
